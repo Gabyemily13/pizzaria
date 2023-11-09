@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffcc00, rgb(255, 129, 12));
+    margin: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.flecha img {
+    width: 40px;
+    height: 40px;
+    margin-top: 36px;
+    margin-left: 26px;
+    position: relative;
+}
+
+.white {
+    background-color: #fff;
+    border-radius: 90px 90px 0 0;
+    width: 1519px;
+    height: 900px;
+    flex-grow: 1; 
+    position: relative;
+    overflow: hidden;
+    margin-top: -180px;
+}
+
+.point {
+    background-color: rgba(0, 0, 0, 0.442);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -49px;
+    margin-left: 23px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil img {
+    width: 160px;
+    height: 160px;
+    margin-left: 650px;
+    margin-top: 90px;
+    z-index: 1;
+    position: relative;
+}
+
+.lap img {
+    width: 55px;
+    height: 55px;
+    margin-left: 750px;
+    margin-top: -60px;
+    z-index: 1;
+    position: absolute;
+}
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+    margin-left: 630px;
+    margin-top: 800px;
+}
+
+input[type="submit"] {
+    background-color: rgb(226, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(116, 2, 2);
+}
+
+.nome h2 {
+    position: relative;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 640px;
+    margin-top: 30px;
+}
+
+.cidade h2 {
+    position: relative;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.453);
+    margin-left: 679px;
+}

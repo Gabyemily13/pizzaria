@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffcc00, rgb(255, 129, 12));
+}
+
+.flecha img {
+    width: 40px;
+    height: 40px;
+    margin-top: 36px;
+    margin-left: 26px;
+    position: relative;
+}
+
+.white {
+    background-color: #fff;
+    border-radius: 90px 90px 0 0;
+    width: 1519px;
+    height: 700px;
+    top: 20px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.cham {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
+    top: 100px;
+    position: relative;
+}
+
+.point {
+    background-color: rgba(0, 0, 0, 0.442);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -49px;
+    margin-left: 23px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil img {
+    width: 160px;
+    height: 160px;
+    margin-left: 650px;
+    margin-top: 90px;
+}
+
+.cam img {
+    width: 55px;
+    height: 55px;
+    margin-left: 750px;
+    margin-top: -60px;
+    position: relative;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(1, 91, 1);
+}
+

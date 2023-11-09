@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/Group\ 7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Impede que a imagem de fundo role com a página */
+    height: 100vh;
+    /* Define a altura do body como a altura da viewport */
+}
+
+.chamada input {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-60%, 530%);
+    background-color: #ffffffe6;
+    color: #f77300;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    border-color: #e5610e;
+    width: 300px;
+}
+
+.chamada form {
+    position: absolute;
+    /* Define o posicionamento absoluto para alinhar corretamente a chamada */
+    top: 50%;
+    /* Posiciona a partir do topo */
+    left: 50%;
+    /* Posiciona a partir da esquerda */
+    transform: translate(-50%, -50%);
+    /* Centraliza a chamada no meio da tela */
+}
+
+.logo {
+    background-image: url('./img/Vector.png');
+    background-size: 100% 100%;
+    width: 120px;
+    height: 120px;
+    transform: translate(20%, 20%);
+}
+
+.title h2 {
+    color: #fff;
+    font-family: Pattaya;
+    font-size: 36px;
+    transform: translate(8%, -15%);
+}
+
+h3 {
+    color: white;
+    font-size: 60px;
+    font-family: Pattaya;
+    transform: translate(35%, -90%);
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    padding-left: 460px;
+    transform: translate(0%, -200%);
+}
+
+.senha {
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    width: 300px;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 128px;
+    margin-left: 735px;
+}
+
+.conta {
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-right: 739px;
+    color: white;
+    background-color: #e5610e;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 160px;
+    margin-left: 660px;
+}
+
+.cham input {
+    width: 180px;
+    height: 41px;
+    cursor: pointer;
+    font-size: 17px;
+    display: block;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.cham form {
+    margin-top: 20px;
+    padding-left: 577px;
+
+}
+
+.cham input[type="email"] {
+    width: 300px;
+    height: 41px;
+    cursor: pointer;
+    padding-left: 30px;
+    font-size: 23px;
+}
+
+
+.cham input[type="password"] {
+    width: 300px;
+    height: 41px;
+    cursor: pointer;
+    padding-left: 30px;
+    font-size: 23px;
+}
+
+.cham input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.icons {
+    margin-top: -10px;
+    margin-left: 1010px;
+}
+
+.icons img {
+    position: relative;
+    top: -125px;
+    left: -460px;
+}
+
+.icons1 {
+    margin-top: -10px;
+    margin-left: 1010px;
+}
+
+.icons1 img {
+    position: relative;
+    top: -200px;
+    left: -461px;
+}
+
+.conta1 {
+    color: white;
+    top: 150px;
+    margin-left: 638px;
+    position: relative;
+    font-weight: 600;
+}

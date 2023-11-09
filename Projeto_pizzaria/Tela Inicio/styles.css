@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/Group\ 7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Impede que a imagem de fundo role com a página */
+    height: 100vh;
+    /* Define a altura do body como a altura da viewport */
+}
+
+.chamada input {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-60%, 650%);
+    background-color: #ffffffe6;
+    color: #f77300;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    border-color: #e5610e;
+    width: 300px;
+}
+
+.chamada form {
+    position: absolute;
+    /* Define o posicionamento absoluto para alinhar corretamente a chamada */
+    top: 50%;
+    /* Posiciona a partir do topo */
+    left: 50%;
+    /* Posiciona a partir da esquerda */
+    transform: translate(-50%, -50%);
+    /* Centraliza a chamada no meio da tela */
+}
+
+.logo {
+    background-image: url('./img/Vector.png');
+    background-size: 100% 100%;
+    width: 120px;
+    height: 120px;
+    transform: translate(20%, 20%);
+}
+
+.title h2 {
+    color: #fff;
+    font-family: Pattaya;
+    font-size: 36px;
+    transform: translate(8%, -15%);
+}
+
+h3 {
+    color: white;
+    font-size: 60px;
+    font-family: Pattaya;
+    padding-left: 400px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    padding-left: 400px;
+    padding-top: 5px;
+}
+
+.p{
+    color: white;
+    padding-top: 300px;
+    padding-left: 780px;
+}
